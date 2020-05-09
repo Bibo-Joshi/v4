@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
-import { srConfig, github } from '@config';
+import { srConfig, github, telegram, siteUrl } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -62,8 +62,8 @@ const StyledPic = styled.div`
 `;
 const StyledAvatar = styled(Img)`
   position: relative;
-  mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1);
+  // mix-blend-mode: multiply;
+  // filter: grayscale(100%) contrast(1);
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
 `;
@@ -82,8 +82,8 @@ const StyledAvatarLink = styled.a`
       left: 15px;
     }
     ${StyledAvatar} {
-      filter: none;
       mix-blend-mode: normal;
+      filter: grayscale(100%) contrast(1);
     }
   }
   &:before,
@@ -129,7 +129,7 @@ const About = ({ data }) => {
           </SkillsContainer>
         </StyledContent>
         <StyledPic>
-          <StyledAvatarLink href={github}>
+          <StyledAvatarLink href={siteUrl}>
             <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
           </StyledAvatarLink>
         </StyledPic>

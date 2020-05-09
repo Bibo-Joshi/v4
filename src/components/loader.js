@@ -21,7 +21,7 @@ const StyledContainer = styled.div`
 `;
 const StyledLogo = styled.div`
   width: max-content;
-  max-width: 100px;
+  max-width: 5000px;
   transition: ${theme.transition};
   opacity: ${props => (props.isMounted ? 1 : 0)};
   svg {
@@ -31,7 +31,43 @@ const StyledLogo = styled.div`
     margin: 0 auto;
     fill: none;
     user-select: none;
-    #B {
+    #A1 {
+      opacity: 0;
+    }
+    #A2 {
+      opacity: 0;
+    }
+    #A3 {
+      opacity: 0;
+    }
+    #A4 {
+      opacity: 0;
+    }
+    #A5 {
+      opacity: 0;
+    }
+    #B1 {
+      opacity: 0;
+    }
+    #B2 {
+      opacity: 0;
+    }
+    #B3 {
+      opacity: 0;
+    }
+    #B4 {
+      opacity: 0;
+    }
+    #B5 {
+      opacity: 0;
+    }
+    #B6 {
+      opacity: 0;
+    }
+    #B7 {
+      opacity: 0;
+    }
+    #B8 {
       opacity: 0;
     }
   }
@@ -47,13 +83,19 @@ const Loader = ({ finishLoading }) => {
       .add({
         targets: '#logo path',
         delay: 300,
-        duration: 1500,
+        duration: 1000,
         easing: 'easeInOutQuart',
         strokeDashoffset: [anime.setDashoffset, 0],
       })
       .add({
-        targets: '#logo #B',
-        duration: 700,
+        targets: '#logo #A1, #logo #A2, #logo #A3, #logo #A4, #logo #A5',
+        duration: 500,
+        easing: 'easeInOutQuart',
+        opacity: 1,
+      })
+      .add({
+        targets: '#logo #B1, #logo #B2, #logo #B3, #logo #B4, #logo #B5, #logo #B6, #logo #B7, #logo #B8',
+        duration: 500,
         easing: 'easeInOutQuart',
         opacity: 1,
       })

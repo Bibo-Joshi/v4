@@ -1,13 +1,11 @@
 ---
 title: 'About Me'
-avatar: './me.jpg'
+avatar: './hhh.jpg'
 skills:
-  - JavaScript (ES6+)
-  - HTML & (S)CSS
-  - React
-  - Vue
-  - Node.js
-  - WordPress
+  - Fuck
+  - You
+  - In
+  - Particular
 ---
 
 Hello! I'm Brittany, a software engineer based in Boston, MA.

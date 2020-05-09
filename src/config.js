@@ -1,38 +1,32 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'HirschHeissIch',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'HirschHeissIch is a web page.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Hirsch, Stag, python-telegram-bot',
+  siteUrl: 'https://hirschheissi.ch',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  // googleAnalyticsID: 'UA-45666519-2',
+  // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  name: 'HirschHeissIch',
+  location: 'Somewhere in outer space',
+  email: 'info@hirschheissi.ch',
+  github: 'https://github.com/Bibo-Joshi',
+  gitlab: 'https://gitlab.com/HirschHeissIch',
+  telegram: 'https://t.me/BiboJoshi',
+  // twitterHandle: '@bchiang7',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/Bibo-Joshi',
     },
     {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      name: 'GitLab',
+      url: 'https://gitlab.com/HirschHeissIch',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      name: 'Telegram',
+      url: 'https://t.me/BiboJoshi',
     },
   ],
 
@@ -40,10 +34,6 @@ module.exports = {
     {
       name: 'About',
       url: '/#about',
-    },
-    {
-      name: 'Experience',
-      url: '/#jobs',
     },
     {
       name: 'Work',

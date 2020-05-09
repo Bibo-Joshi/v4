@@ -1,8 +1,8 @@
 ---
-title: 'Hi, my name is'
-name: 'Brittany Chiang'
-subtitle: 'I build things for the web.'
-buttonText: 'Get In Touch'
+title: ''
+name: 'HirschHeissIch'
+subtitle: 'CallMeStag.'
 ---
 
-I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.
+Have you ever been to outer space, drifting peacefully in your Death Star, pondering on which planet to disintegrate next,
+when you suddenly see a giant, bioluminescent potato floating next to the bridge? Neither have I.
