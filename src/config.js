@@ -40,8 +40,8 @@ module.exports = {
       url: '/#projects',
     },
     {
-      name: 'Contact',
-      url: '/#contact',
+      name: 'Annals',
+      url: '/#annals',
     },
   ],
 

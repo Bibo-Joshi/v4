@@ -42,14 +42,14 @@ const PostTemplate = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>{title} | Brittany Chiang</title>
-        <link rel="canonical" href="https://brittanychiang.com/pensieve" />
+        <title>{title}</title>
+        <link rel="canonical" href="https://hirschheissi.ch/annals" />
       </Helmet>
 
       <StyledPostContainer>
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
-          <Link to="/pensieve">All memories</Link>
+          <Link to="/annals">All posts</Link>
         </span>
 
         <StyledPostHeader>
@@ -66,7 +66,7 @@ const PostTemplate = ({ data, location }) => {
             {tags &&
               tags.length > 0 &&
               tags.map((tag, i) => (
-                <Link key={i} to={`/pensieve/tags/${kebabCase(tag)}/`} className="tag">
+                <Link key={i} to={`/annals/tags/${kebabCase(tag)}/`} className="tag">
                   #{tag}
                 </Link>
               ))}

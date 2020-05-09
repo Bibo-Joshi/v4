@@ -1,9 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import sr from '@utils/sr';
-import { srConfig, email } from '@config';
+import { srConfig, email, siteUrl } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
+import {Link} from "gatsby";
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -50,14 +51,14 @@ const Contact = ({ data }) => {
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
   return (
-    <StyledContainer id="contact" ref={revealContainer}>
+    <StyledContainer id="annals" ref={revealContainer}>
       <StyledHeading>What&apos;s Next?</StyledHeading>
 
       <StyledTitle>{title}</StyledTitle>
 
       <div dangerouslySetInnerHTML={{ __html: html }} />
 
-      <StyledEmailLink href={`mailto:${email}`} target="_blank" rel="nofollow noopener noreferrer">
+      <StyledEmailLink href={`${siteUrl}/annals`} target="_blank" rel="nofollow noopener noreferrer">
         {buttonText}
       </StyledEmailLink>
     </StyledContainer>
