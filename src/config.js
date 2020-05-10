@@ -28,6 +28,10 @@ module.exports = {
       name: 'Telegram',
       url: 'https://t.me/BiboJoshi',
     },
+    {
+      name: 'StackExchange',
+      url: 'https://stackexchange.com/users/14687358/',
+    },
   ],
 
   navLinks: [

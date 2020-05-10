@@ -16,3 +16,4 @@ export { default as IconTwitter } from './twitter';
 export { default as IconZap } from './zap';
 export { default as IconGitLab } from './gitlab';
 export { default as IconTelegram } from './telegram';
+export { default as IconStackExchange } from './stackexchange';
