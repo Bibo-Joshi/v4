@@ -136,6 +136,8 @@ const ArchivePage = ({ location, data }) => {
                   const {
                     date,
                     github,
+                    gitlab,
+                    telegram,
                     external,
                     ios,
                     android,
@@ -182,6 +184,24 @@ const ArchivePage = ({ location, data }) => {
                               rel="nofollow noopener noreferrer"
                               aria-label="GitHub Link">
                               <FormattedIcon name="GitHub" />
+                            </a>
+                          )}
+                          {gitlab && (
+                            <a
+                              href={gitlab}
+                              target="_blank"
+                              rel="nofollow noopener noreferrer"
+                              aria-label="GitLab Link">
+                              <FormattedIcon name="GitLab" />
+                            </a>
+                          )}
+                          {telegram && (
+                            <a
+                              href={telegram}
+                              target="_blank"
+                              rel="nofollow noopener noreferrer"
+                              aria-label="Telegram Link">
+                              <FormattedIcon name="Telegram" />
                             </a>
                           )}
                           {ios && (
@@ -238,6 +258,8 @@ export const pageQuery = graphql`
             ios
             android
             company
+            telegram
+            gitlab
           }
           html
         }

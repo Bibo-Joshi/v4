@@ -3,4 +3,10 @@ title: 'Annals'
 buttonText: 'Take Me There'
 ---
 
-Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+Sometimes, while brushing my teeth, or while feeding the Nifflers diamonds from my enormous Vault, I have a sudden
+stroke of inspiration, an idea of the utmost genius. This morning for example, I suddenly thought to my self:
+
+*»Narwals are nothing but sea unicorns!«*
+
+It is in such moments of ingenuity, that I might feel the need to inform the world of
+my findings and write them down in my annals.

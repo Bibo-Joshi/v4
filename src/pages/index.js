@@ -97,6 +97,8 @@ export const pageQuery = graphql`
             tech
             github
             external
+            telegram
+            gitlab
           }
           html
         }
@@ -116,6 +118,8 @@ export const pageQuery = graphql`
             tech
             github
             external
+            telegram
+            gitlab
           }
           html
         }

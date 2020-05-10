@@ -2,16 +2,22 @@
 title: 'About Me'
 avatar: './hhh.jpg'
 skills:
-  - Fuck
-  - You
-  - In
-  - Particular
+  - Eat
+  - Sleep
+  - Repeat
 ---
 
-Hello! I'm Brittany, a software engineer based in Boston, MA.
+*»You can teach a man to fish, but you can not teach a fish to man.«*
 
-I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+While that says absolutely nothing about me, this is true for the following statement:
 
-Shortly after graduating from [Northeastern University](https://www.ccis.northeastern.edu/), I joined the engineering team at [Upstatement](https://www.upstatement.com/) where I work on a wide variety of interesting and meaningful projects on a daily basis.
+*»It's colder at night than behind the mountain.«*
 
-Here are a few technologies I've been working with recently:
+Between my job as a professional human and wasting your time with nonsensical quotes, my hobbies include
+
+* Playing the Tuba, either in the worlds greatest and most famous big brass bouncing and bollar band, or following fat people
+* Wresting virtual snakes (aka coding in Python), both for silly side projects and to help maintaining the
+  glorious [python-telegram-bot](https://python-telegram-bot.org) library
+* Amateurishly designing logos for everything that needs one and, of course, for everything that doesn't need one
+
+When idling, I usually fall back to my mantra
