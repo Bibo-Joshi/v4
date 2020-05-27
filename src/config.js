@@ -1,16 +1,14 @@
 module.exports = {
   siteTitle: 'HirschHeissIch',
-  siteDescription:
-    'HirschHeissIch is a web page.',
-  siteKeywords:
-    'Hirsch, Stag, python-telegram-bot',
+  siteDescription: 'HirschHeissIch is a web page.',
+  siteKeywords: 'Hirsch, Stag, python-telegram-bot',
   siteUrl: 'https://hirschheissi.ch',
   siteLanguage: 'en_US',
   // googleAnalyticsID: 'UA-45666519-2',
   // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'HirschHeissIch',
   location: 'Somewhere in outer space',
-  email: 'info@hirschheissi.ch',
+  email: 'hinrich.mahler@gmail.com',
   github: 'https://github.com/Bibo-Joshi',
   gitlab: 'https://gitlab.com/HirschHeissIch',
   telegram: 'https://t.me/BiboJoshi',
