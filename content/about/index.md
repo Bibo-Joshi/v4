@@ -9,7 +9,7 @@ skills:
 
 *»You can teach a man to fish, but you can not teach a fish to man.«*
 
-While that says absolutely nothing about me, this is true for the following statement:
+While that says absolutely nothing about me, this is also true for the following statement:
 
 *»It's colder at night than behind the mountain.«*
 
