@@ -14,4 +14,4 @@ company: ''
 showInProjects: true
 ---
 
-A simple statistics plugin for Telegram bots build with the python-telegram-bot library.
+A simple statistics plugin for Telegram bots built with the python-telegram-bot library.
