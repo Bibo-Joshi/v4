@@ -155,7 +155,7 @@ const Projects = ({ data }) => {
           {projectsToShow &&
             projectsToShow.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { github, external, title, tech, gitlab, telegram } = frontmatter;
+              const { github, external, title, tech, gitlab, telegram, docs } = frontmatter;
               return (
                 <CSSTransition
                   key={i}
@@ -201,6 +201,15 @@ const Projects = ({ data }) => {
                                 rel="nofollow noopener noreferrer"
                                 aria-label="Telegram Link">
                                 <FormattedIcon name="Telegram" />
+                              </StyledIconLink>
+                            )}
+                            {docs && (
+                              <StyledIconLink
+                                href={docs}
+                                target="_blank"
+                                rel="nofollow noopener noreferrer"
+                                aria-label="Documentation Link">
+                                <FormattedIcon name="Docs" />
                               </StyledIconLink>
                             )}
                             {external && (

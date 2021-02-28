@@ -144,6 +144,7 @@ const ArchivePage = ({ location, data }) => {
                     title,
                     tech,
                     company,
+                    docs,
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -204,6 +205,15 @@ const ArchivePage = ({ location, data }) => {
                               <FormattedIcon name="Telegram" />
                             </a>
                           )}
+                          {docs && (
+                            <a
+                              href={docs}
+                              target="_blank"
+                              rel="nofollow noopener noreferrer"
+                              aria-label="Documentation Link">
+                              <FormattedIcon name="Docs" />
+                            </a>
+                          )}
                           {ios && (
                             <a
                               href={ios}
@@ -260,6 +270,7 @@ export const pageQuery = graphql`
             company
             telegram
             gitlab
+            docs
           }
           html
         }

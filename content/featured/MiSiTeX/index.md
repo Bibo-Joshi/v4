@@ -6,6 +6,7 @@ external: 'https://gitlab.com/HirschHeissIch/misitex'
 telegram: ''
 github: ''
 gitlab: 'https://gitlab.com/HirschHeissIch/misitex'
+docs: 'https://gitlab.com/HirschHeissIch/misitex/-/raw/master/pdf/misitex_documentation.pdf?inline=true'
 tech:
   - LaTeX
   - Mathematics

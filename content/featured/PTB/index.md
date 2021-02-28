@@ -6,6 +6,7 @@ external: 'https://python-telegram-bot.org/'
 telegram: 'https://t.me/pythontelegrambotgroup'
 github: 'https://github.com/python-telegram-bot/python-telegram-bot/'
 gitlab: ''
+docs: 'https://python-telegram-bot.readthedocs.org'
 tech:
   - Telegram Bot API
   - Python

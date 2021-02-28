@@ -6,7 +6,7 @@ gitlab: ''
 telegram: 'https://t.me/AkaNamenBot'
 ios: ''
 android: ''
-external: ''
+docs: 'https://bibo-joshi.github.io/AkaNamen-Bot'
 tech:
   - Telegram Bot API
   - Python

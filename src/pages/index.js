@@ -99,6 +99,7 @@ export const pageQuery = graphql`
             external
             telegram
             gitlab
+            docs
           }
           html
         }
@@ -120,6 +121,7 @@ export const pageQuery = graphql`
             external
             telegram
             gitlab
+            docs
           }
           html
         }

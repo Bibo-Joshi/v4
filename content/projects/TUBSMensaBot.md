@@ -6,7 +6,7 @@ gitlab: 'https://gitlab.com/HirschHeissIch/tubs-mensa-bot/'
 telegram: 'https://t.me/tubs_mensa_bot'
 ios: ''
 android: ''
-external: 'https://hirschheissich.gitlab.io/tubs-mensa-bot/'
+docs: 'https://hirschheissich.gitlab.io/tubs-mensa-bot/'
 tech:
   - Telegram Bot API
   - Python

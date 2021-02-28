@@ -222,7 +222,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, telegram, gitlab } = frontmatter;
+            const { external, title, tech, github, cover, telegram, gitlab, docs } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -275,6 +275,15 @@ const Featured = ({ data }) => {
                         rel="nofollow noopener noreferrer"
                         aria-label="Telegram">
                         <FormattedIcon name="Telegram" />
+                      </a>
+                    )}
+                    {docs && (
+                      <a
+                        href={docs}
+                        target="_blank"
+                        rel="nofollow noopener noreferrer"
+                        aria-label="Documentation">
+                        <FormattedIcon name="Docs" />
                       </a>
                     )}
                     {external && (

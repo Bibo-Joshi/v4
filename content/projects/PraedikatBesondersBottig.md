@@ -6,7 +6,7 @@ gitlab: 'https://gitlab.com/HirschHeissIch/praedikat-besonders-bottig/'
 telegram: 'https://t.me/PraedikatBesondersBot'
 ios: ''
 android: ''
-external: 'https://hirschheissich.gitlab.io/praedikat-besonders-bottig/'
+docs: 'https://hirschheissich.gitlab.io/praedikat-besonders-bottig/'
 tech:
   - Telegram Bot API
   - Python

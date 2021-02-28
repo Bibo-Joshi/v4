@@ -6,7 +6,7 @@ gitlab: 'https://gitlab.com/HirschHeissIch/twitter-status-bot/'
 telegram: 'https://t.me/TwitterStatusBot'
 ios: ''
 android: ''
-external: 'https://hirschheissich.gitlab.io/twitter-status-bot/'
+docs: 'https://hirschheissich.gitlab.io/twitter-status-bot/'
 tech:
   - Telegram Bot API
   - Python

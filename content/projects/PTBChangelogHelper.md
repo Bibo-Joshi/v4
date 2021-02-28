@@ -7,6 +7,7 @@ telegram: ''
 ios: ''
 android: ''
 external: ''
+docs: 'https://github.com/Bibo-Joshi/ptb-changelog-helper/blob/master/README.md'
 tech:
   - Python
   - python-telegram-bot

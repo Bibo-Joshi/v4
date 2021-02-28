@@ -6,7 +6,7 @@ gitlab: 'https://gitlab.com/HirschHeissIch/image-2-sticker-bot/'
 telegram: 'https://t.me/image_2_sticker_bot'
 ios: ''
 android: ''
-external: 'https://hirschheissich.gitlab.io/image-2-sticker-bot/'
+docs: 'https://hirschheissich.gitlab.io/image-2-sticker-bot/'
 tech:
   - Telegram Bot API
   - Python

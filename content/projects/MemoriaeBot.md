@@ -6,7 +6,7 @@ gitlab: 'https://gitlab.com/HirschHeissIch/memoriae-bot/'
 telegram: 'https://t.me/memoriae_bot'
 ios: ''
 android: ''
-external: 'https://hirschheissich.gitlab.io/praedikat-besonders-bottig/'
+docs: 'https://hirschheissich.gitlab.io/praedikat-besonders-bottig/'
 tech:
   - Telegram Bot API
   - Python

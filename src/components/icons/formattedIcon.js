@@ -19,6 +19,7 @@ import {
   IconGitLab,
   IconTelegram,
   IconStackExchange,
+  IconDocs,
 } from '@components/icons';
 
 const FormattedIcon = ({ name }) => {
@@ -59,6 +60,8 @@ const FormattedIcon = ({ name }) => {
       return <IconTelegram />;
     case 'StackExchange':
       return <IconStackExchange />;
+    case 'Docs':
+      return <IconDocs />;
     default:
       return <IconExternal />;
   }

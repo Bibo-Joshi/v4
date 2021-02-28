@@ -6,7 +6,7 @@ gitlab: 'https://gitlab.com/HirschHeissIch/ptbstats/'
 telegram: ''
 ios: ''
 android: ''
-external: 'https://hirschheissich.gitlab.io/ptbstats/'
+docs: 'https://hirschheissich.gitlab.io/ptbstats/'
 tech:
   - Python
   - python-telegram-bot
