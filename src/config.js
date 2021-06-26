@@ -27,6 +27,14 @@ module.exports = {
       url: 'https://t.me/BiboJoshi',
     },
     {
+      name: 'Channel',
+      url: 'https://t.me/BotChangelogs',
+    },
+    {
+      name: 'StagOverflow',
+      url: 'https://stagoverflow.de',
+    },
+    {
       name: 'StackExchange',
       url: 'https://stackexchange.com/users/14687358/',
     },

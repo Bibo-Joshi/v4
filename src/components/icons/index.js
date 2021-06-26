@@ -18,3 +18,5 @@ export { default as IconGitLab } from './gitlab';
 export { default as IconTelegram } from './telegram';
 export { default as IconStackExchange } from './stackexchange';
 export { default as IconDocs } from './docs';
+export { default as IconChannel } from './channel';
+export { default as IconStagOverflow } from './stagoverflow';

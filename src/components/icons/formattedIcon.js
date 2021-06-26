@@ -20,6 +20,8 @@ import {
   IconTelegram,
   IconStackExchange,
   IconDocs,
+  IconChannel,
+  IconStagOverflow,
 } from '@components/icons';
 
 const FormattedIcon = ({ name }) => {
@@ -62,6 +64,10 @@ const FormattedIcon = ({ name }) => {
       return <IconStackExchange />;
     case 'Docs':
       return <IconDocs />;
+    case 'Channel':
+      return <IconChannel />;
+    case 'StagOverflow':
+      return <IconStagOverflow />;
     default:
       return <IconExternal />;
   }
